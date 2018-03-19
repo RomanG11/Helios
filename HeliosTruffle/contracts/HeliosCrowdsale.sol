@@ -117,7 +117,7 @@ contract Crowdsale is Ownable{
   uint tokenPrice = 0.001 ether;
 
   //preIco constants
-  uint public constant preIcoStart = 0; //1525168800
+  uint public constant preIcoStart = 1521470307; //1525168800
   uint public constant preIcoFinish = 1527847200;
   uint public constant preIcoMinInvest = 50*(uint(10).pow(decimals)); //50 Tokens
 
