@@ -98,9 +98,9 @@ contract Crowdsale is Ownable{
   HeliosToken public token;
 
   // Constructor
-  function Crowdsale(address _tokenAddress) public{
+  function Crowdsale(address _tokenAddress, address _techSupport) public{
     token = HeliosToken(_tokenAddress);
-    techSupport = msg.sender;
+    techSupport = _techSupport;
 
     // test parameter
     // techSupport = 0x8C0F5211A006bB28D4c694dC76632901664230f9;
